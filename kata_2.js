@@ -5,12 +5,10 @@
 const numbers = [1, 2, 3, 4, 5, 6];
 
 function sumOfEvenNumbers(numbers){
-    const array = [5, 8, 10, 12, 20,35];
-
-     for(i = 0; i < array.length; i++){
-        let sum = 0;
-        if (array[i] %2 === 0) {
-            sum += array[i];
+    let sum = 0;
+     for(i = 0; i < numbers.length; i++){
+        if (numbers[i] %2 === 0) {
+            sum += numbers[i];
         }
        
      }
