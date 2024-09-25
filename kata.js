@@ -28,7 +28,7 @@ const recentMovies = [
 
   function filterByTitle (movies, searchedTitle) {
 
-    const filteredMovies = []; // Tableau pour stocker les films qui correspondent
+    const filteredMovies = []; // Tableau pour stocker les films 
 
     for(i=0; i < movies.length; i++){
 
